@@ -1,13 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import SideBar from './pages/SideBar';
+import Mainpage from "./pages/Mainpage"
+import InputBox from './components/Inputbox';
+import Header from './pages/Header';
+
 
 function App() {
   return (
-    <div className="App">
-     <p className='h3'>bootstarp work</p>
-     
-    </div>
+ <>
+  <SideBar/>
+ {/* <Header/> */} 
+ {/* <InputBox/> */}
+ {/* <Mainpage/> */}
+
+ 
+ </>                                                      
+  
   );
 }
 
