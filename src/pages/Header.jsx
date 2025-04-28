@@ -1,6 +1,6 @@
 import { FaBell } from "react-icons/fa";
 import InputBox from "../components/Inputbox"
-import { FaCircleExclamation, FaMessage } from "react-icons/fa6";
+import { FaCircleExclamation, FaMessage, FaSackDollar } from "react-icons/fa6";
 
 const Header=()=>{
     return(
@@ -10,7 +10,7 @@ const Header=()=>{
                 <ul><li><FaBell/></li>
                 <li><FaMessage/></li>
                 <li><FaCircleExclamation/></li>
-                <li><Fasettting/></li></ul>
+                <li><FaSackDollar/></li></ul>
             </div>
           
         </div>
