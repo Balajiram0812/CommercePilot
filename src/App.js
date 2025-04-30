@@ -1,23 +1,34 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import SideBar from './pages/SideBar';
-import Mainpage from "./pages/Mainpage"
-import InputBox from './components/Inputbox';
 import Header from './pages/Header';
-
+import { Col,Row, Container } from 'react-bootstrap';
+import Sidebar from './pages/SideBar';
 
 function App() {
   return (
- <>
-  <SideBar/>
- <Header/> 
- {/* <InputBox/> */}
- {/* <Mainpage/> */}
+    // <div >
+    // <Sidebar2/>
+    //   <div >
+    //     <Header /> 
+    //   </div>
 
- 
- </>                                                      
-  
+    // </div>
+<Container fluid>
+  <Row>
+    <Col md={3}>
+      {/* <Sidebar /> */}
+      <Sidebar/>
+    </Col>
+    <Col md={9}>
+      <Header />
+      
+    </Col>
+  </Row>
+</Container>
+
+
   );
 }
+
 
 export default App;
