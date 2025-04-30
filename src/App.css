@@ -1,20 +1,9 @@
-
-li{
-  color: #444851 ;
-  direction: none;
-}
  
-/* div.container.Header{
-  margin-left: 207px;
-} */
 .Header {
   height: 60px;
   display: flex;
-  /* width: 77vw; */
   justify-content: space-between;
-  /* margin-left: 213px; */
   align-items: center;
-  /* padding:auto; */
   background-color: #f8f9fa;
  
 }
